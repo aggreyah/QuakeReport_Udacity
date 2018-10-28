@@ -5,7 +5,7 @@ public class Earthquake {
     private double mMagnitude;
 
     //magnitude of the earthquake on the ritcher scale
-    private String mQuakeDetailsUrl;
+    private String mUrl;
 
     /**Name of place where earthquake occured*/
     private String mPlaceEarthquakeOcurred;
@@ -22,7 +22,7 @@ public class Earthquake {
         mMagnitude = magnitude;
         mPlaceEarthquakeOcurred = placeOccurred;
         mDateOfOccurrence = dateOfOccurrence;
-        mQuakeDetailsUrl = quakeUrl;
+        mUrl = quakeUrl;
     }
 
     /**Get magnitude of the earthquake*/
@@ -37,5 +37,5 @@ public class Earthquake {
     public long getDateOfOccurrence(){return mDateOfOccurrence;}
 
     /**Get date quake details url*/
-    public String getQuakeUrl(){return mQuakeDetailsUrl;}
+    public String getQuakeUrl(){return mUrl;}
 }
