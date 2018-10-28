@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">Quake Report</string>
+    
+    <!--dates string -->
+    <string name="date_san_francisco">Feb 2, 2018</string>
+    <string name="date_london">July 20, 2017</string>
+    <string name="date_tokyo">Nov 10, 2018</string>
+    <string name="date_mexico_city">May 3, 2016</string>
+    <string name="date_moscow">Jan 31, 2016</string>
+    <string name="date_rio_de_janeiro">Aug 19, 2015</string>
+    <string name="date_paris">Oct 30, 2013</string>
+
+    <!--cities string -->
+    <string name="san_francisco">San Francisco</string>
+    <string name="london">London</string>
+    <string name="tokyo">Tokyo</string>
+    <string name="mexico_city">Mexico City</string>
+    <string name="moscow">Moscow</string>
+    <string name="rio_de_janeiro">Rio de Janeiro</string>
+    <string name="paris">Paris</string>
+
+    <!--magnitudes -->
+    <string name="magnitude_san_francisco">7.2</string>
+    <string name="magnitude_london">6.1</string>
+    <string name="magnitude_tokyo">3.9</string>
+    <string name="magnitude_mexico_city">5.4</string>
+    <string name="magnitude_moscow">2.8</string>
+    <string name="magnitude_rio_de_janeiro">4.9</string>
+    <string name="magnitude_paris">1.9</string>
+</resources>
